@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Functional Baap Er Bank</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <header>
+      <h1 class="text-5xl font-semibold mt-6 text-center">
+        Functional <span class="text-violet-800">Baap er Bank!!!</span>
+      </h1>
+    </header>
+    <main>
+      <section>
+        <div class="grid md:grid-cols-3 gap-4 w-9/12 mx-auto mt-10">
+          <!-- deposit section -->
+          <div class="bg-green-400 p-9 rounded-lg shadow-2xl">
+            <h4 class="text-3xl font-normal">Deposit</h4>
+            <h2 class="text-5xl font-medium">
+              $<span id="deposit-amount">00</span>
+            </h2>
+          </div>
+          <!-- withdraw section -->
+          <div class="bg-orange-400 p-9 rounded-lg shadow-2xl">
+            <h4 class="text-3xl font-normal">Withdraw</h4>
+            <h2 class="text-5xl font-medium">
+              $<span id="withdraw-amount">00</span>
+            </h2>
+          </div>
+          <!-- balance section -->
+          <div class="bg-blue-400 p-9 rounded-lg shadow-2xl">
+            <h4 class="text-3xl font-normal">Balance</h4>
+            <h2 class="text-5xl font-medium">
+              $<span id="balance-amount">00</span>
+            </h2>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
