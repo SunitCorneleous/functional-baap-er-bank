@@ -10,8 +10,8 @@ document.getElementById("withdraw-btn").addEventListener("click", function () {
   }
 
   // set deposit
-  const newTotalDepositAmount = currentWithdrawAmount + newWithdrawAmount;
-  setElementTextById("withdraw-total", newTotalDepositAmount);
+  const newTotalWithdrawAmount = currentWithdrawAmount + newWithdrawAmount;
+  setElementTextById("withdraw-total", newTotalWithdrawAmount);
   // set balance
   const newTotalBalanceAmount = currentBalanceAmount - newWithdrawAmount;
   setElementTextById("balance-total", newTotalBalanceAmount);
